@@ -4,6 +4,8 @@ function Shows(props) {
     const {data_show}  = props;
     return data_show.map((item)=>{
       return (
+        // getting Show Details from API and set it in proper manners in div
+   <a href={item?.show?.url}>{
     <div className='outerDiv'>
           {
             (item.show.image)? <img src={item?.show?.image?.medium } alt='no img found'/> 
@@ -17,11 +19,12 @@ function Shows(props) {
               }
               {
                 (item.show.rating.average)? <p className='infoPara'>Rating: {item?.show?.rating?.average} ⭐</p> :
-              <p className='infoPara'>Rating: 0.0 ⭐</p>
+              <p className='infoPara'>Rating: NA ⭐</p>
               }
               
           </div>
       </div>
+  }</a> 
   )
 })
 }

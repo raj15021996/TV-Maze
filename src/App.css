@@ -11,7 +11,7 @@ html{
   font-weight: bold;
  }
 .container{
-  height: 43rem;
+  height: 38rem;
   margin: 4rem 10rem;
   padding: 8rem;
   color: white;
@@ -78,14 +78,22 @@ label{
   height: 35rem;
   object-fit:cover ;
 }
+.outerDiv:hover{
+    box-shadow: 0px 5px 10px 0px rgba(214, 210, 210, 0.659), 0 0px 50px 0px rgba(0, 0, 0, 0.511);
+}
 .infoDiv{
   color: white;
   width: 25rem;
-  height: 10rem;
+  height: 12rem;
   border-top: .2rem solid white;
 }
 .errorText{
   color: red;
+  font-size: 1.5rem;
+}
+.loading{
+  font-size: 3rem;
+  color: #ffff;
 }
 #displayText{
   color: rgb(219, 219, 21);
@@ -100,14 +108,10 @@ label{
   text-align: center;
   font-size: 1.5rem;
 }
-.infoDiv{
-  color: gray; 
-}
 details > summary {
   list-style: none;
   cursor: pointer;
 }
-
 
 @media (max-width:768px) {
   .container{
@@ -124,9 +128,7 @@ details > summary {
     display: flex;
     flex-direction: column;
   } 
-  .container{
-    font-size: 80%;
-  }
+
   .inputField{
     width: 200px;
     height: 10px;
