@@ -56,7 +56,7 @@ function MainUI() {
             setShowData([]);
         }
     }, [input])
-
+//fetch actor shows details
     useEffect(() => {
         FetchActorShow();
     }, [actorData, input]);
