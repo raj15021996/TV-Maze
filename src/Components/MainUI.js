@@ -8,7 +8,7 @@ function MainUI() {
     const [input, setInput] = useState('')
     const [showData, setShowData] = useState([])
     const [actorData, setActorData] = useState([])
-    let [actorShowData, setActorShowData] = useState([]);
+    const [actorShowData, setActorShowData] = useState([]);
     const [select, setSelect] = useState('')
     const [view, setView] = useState(false);
     const [loading, setLoading] = useState(false);
