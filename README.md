@@ -1,6 +1,6 @@
 # Project Name - TvMaze-App
 # Description - 
-  1. This is a react project. It is created using react functional component, react hooks like useState, useEffect, debouncing etc, api calls, css, etc
+  1. This is a react project. It is created using react functional component, react hooks like useState, useEffect, debouncing , Fetch api, etc
   2. This app calls apis when user gives input in the input text bar.
   3. There are two radio buttons given one is for Actor and another one is for Shows.
   4. For different input different api is called.
